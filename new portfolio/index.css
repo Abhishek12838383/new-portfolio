@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+background: #0f0f0f;
+box-shadow: 0px 4.36364px 16px -2.18182px rgba(0, 0, 0, 0.10);
+height: 70px;
+}
+.nav-menu ul{
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.hero{
+    background-color: black;
+    height: 600px;
+}
+.hero img{
+    height: 160px;
+    margin-top: 80px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+.tag-line{
+    margin-left: 35%;
+}
+.tag-line h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+}
+.hero p{
+    margin-top: 10px;
+    margin-left: 33%;
+    width: 400px;
+    color: var(--Secondary-Text, #C5C5C5);
+font-size: 14px;
+font-weight: 300;
+}
+.cv{
+    margin-top: 30px;
+    margin-left: 40%;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 50px;
+border: 2px solid var(--Primary-Color, #FFF);
+}
+
+
+.skill{
+    background-color: black;
+    height: 300px;
+}
+.skill h3{
+    margin-left: 38%;
+    color: gray;
+    font-size: 30px;
+    font-weight: 600px;
+}
+.s{
+    margin-top: 50px;
+    margin-left: 280px;
+    margin-right: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-1 img{
+    height: 50px;
+    width: 50px;
+}
+
+
+.project{
+    background-color: black;
+    height: 400px;
+}
+.project h3{
+    margin-bottom: 50px;
+    margin-left: 42%;
+    color: orangered;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.b{
+    margin-left: 200px;
+    margin-right: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box img{
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+.exprience{
+    background-color: black;
+    height: 500px;
+}
+.exprience h3{
+    margin-bottom: 50px;
+    margin-left: 42%;
+    color: blue;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.ex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+}
+
+
+.l{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.r{
+    color: gray;
+    font-size: 18px;
+}
